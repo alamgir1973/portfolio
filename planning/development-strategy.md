@@ -1,55 +1,141 @@
-# Project Name
+# Alamgir Portfolio
 
-<!-- describe your project -->
+It is a portfolio website of Mr. Mohammed Alamgir.
 
 ---
 
 ## Setup
 
-<!-- what code do you need just to open the project? this might include:
-  - boilerplate code (https://brandlitic.com/what-is-boilerplate-code/)
-  - loading program data
-  - rendering the initial user interface
--->
+- Create a new rep
+- Protect the main branch
+- Create issues
+- Clone the repo to a local machine
+- Create branches for each issue
 
 ---
 
-<!-- copy this section once for each must-have user story -->
+## Landing page
 
-## user story
+### Navigation bar
 
-<!-- each issue created from this section will have the `for: user story` label -->
+This feature develop on a branch `navigation-bar`
 
-> "as a ... i can ... so that ..."
+#### HTML
 
-<!-- write any extra notes or description -->
+- Add !DOCTYPE html
+- Add html tag
+- Add head tag
+- Add title tag
+- Add body tag
+- Add div tag class `navbar`
+- Add div class=`container flex`
+- Add h1 class=`logo`
+- Add `nav` tag
+- Add `ul` tag
+- Add three `li` to `ul`
 
-<!-- describe the tasks to build this user story
-  these will have the `type: logic` label, for example
-  not all projects will have all types of tasks
-  and these are not the only possible types, just some suggestions
--->
+#### CSS
 
-### Logic: user story
+##### General style
 
-- a _logic_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+- Add style to `root`
+- Add style to `body`
+- Add style to `ul`
+- Add style to `a`
+- Add style to `h1`
+- Add style to `h2`
+- Add style to `p`
+- Add style to `img`
+- Add style to `code`
 
-### Interface: user story
+##### Navbar style
 
-- an _interface_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+- Add style to `navbar` class
+- Add style to `ul` navbar tag
+- Add style to `a` navbar tag
+- Add style to `ul` and `a:hover` navbar tag
+- Add style to `navbar` and `flex`
 
-### Interaction: user story
+### Main content
 
-- an _interaction_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+This feature develop on a branch `main-content`
 
-### Documentation: user story
+#### HTML
 
-- a _documentation_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+- Add `section` tag
+- Add `div` tag to `section` tag
+- Add `div` tag to `div` tag
+- Add `h1` tag to `div` tag
+- Add `p` tag to `div` tag
+- Add `a` tag to `div` tag
+- Add `div` tag
+-
+
+#### CSS
+
+- Add style to `showcase`
+- Add style to `h1`
+- Add style to `p`
+- Add style to `container`
+- Add style to `flex`
+
+### Side Image
+
+This feature develop on a branch `side-image`
+
+#### HTML
+
+- Add `section` tag
+- Add `div` tag to `section` tag
+- Add `div` tag to `div` tag
+
+#### CSS
+
+- Add style to `sideimage`
+- Add style to `h1`
+- Add style to `p`
+- Add style to `container`
+
+### Languages
+
+This feature develop on a branch `languages-known`
+
+#### HTML
+
+- Add `section` tag
+- Add `h2` into `section` tag
+- Add `div` into `section` tag
+- Add four `div` into `div`
+
+#### CSS
+
+- Add style to `languages` and `flex`
+
+### About Me
+
+This feature develop on a branch `about-me`
+
+#### HTML
+
+- Add `section` tag
+- Add `h2` into `section` tag
+- Add `div` into `section` tag
+- Add four `div` into `div`
+
+#### CSS
+
+- Add style to `aboutme` section
+
+### Footer
+
+This feature develop on a branch `footer`
+
+#### HTML
+
+- Add `footer` tag
+- Add `div` tag into `footer`
+- Add `div` into `div`
+
+#### CSS
+
+- Add style to `footer` and `social` and `a`

@@ -13,7 +13,7 @@ A user who wants to build a website about his personal portfolio!
 - As a user, I need a `side image section` so I can find my personal photo.
 - As a user, I need useful `languages section` so user can see how many
   languages I can communicate.
-- As a user, I need useful `about me` so user can send information about me.
+- As a user, I need useful `about me` so user can see information about me.
 - As a user, I need useful `contact form` so user can contact me.
 - As a user, I need a `footer` so I can find the some links and contact
   information easily.
