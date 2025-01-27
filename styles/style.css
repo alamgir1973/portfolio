@@ -1,0 +1,17 @@
+body {
+  background-color: white;
+}
+
+.header {
+  background-color: blue;
+  color: white;
+}
+
+.navbar {
+  background-color: red;
+}
+
+.logo {
+  background-color: black;
+  color: white;
+}

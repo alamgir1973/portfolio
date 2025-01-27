@@ -16,9 +16,9 @@ It is a portfolio website of Mr. Mohammed Alamgir.
 
 ## Landing page
 
-### Navigation bar
+### Header Section
 
-This feature develop on a branch `navigation-bar`
+This feature develop on a branch `header`
 
 #### HTML
 
@@ -27,12 +27,7 @@ This feature develop on a branch `navigation-bar`
 - Add head tag
 - Add title tag
 - Add body tag
-- Add div tag class `navbar`
-- Add div class=`container flex`
-- Add h1 class=`logo`
-- Add `nav` tag
-- Add `ul` tag
-- Add three `li` to `ul`
+- Add section tag class `header`
 
 #### CSS
 
@@ -47,6 +42,21 @@ This feature develop on a branch `navigation-bar`
 - Add style to `p`
 - Add style to `img`
 - Add style to `code`
+
+### Navigation bar
+
+This feature develop on a branch `navigation-bar`
+
+#### HTML
+
+- Add div tag class `navbar`
+- Add div class=`container flex`
+- Add h1 class=`logo`
+- Add `nav` tag
+- Add `ul` tag
+- Add three `li` to `ul`
+
+#### CSS
 
 ##### Navbar style
 
