@@ -1,30 +1,33 @@
 # Backlog
 
-A collection of user stories you can choose from. Stories inside each priority
-level are not necessarily in order, it's up to your group to decide how they fit
-into your strategy. These are also just suggestion, feel free to change them or
-create your own!
+A user who wants to build a website about his personal portfolio!
 
 ## Must-Haves
 
 > these are necessary for basic usability
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+- As a user, I need a `navbar` with the logo so I can navigate easily on the
+  website.
+- As a user, I need a `main content` overview so I can see the content
+  available.
+- As a user, I need a `side image section` so I can find my personal photo.
+- As a user, I need useful `languages section` so user can see how many
+  languages I can communicate.
+- As a user, I need useful `about me` so user can send information about me.
+- As a user, I need useful `contact form` so user can contact me.
+- As a user, I need a `footer` so I can find the some links and contact
+  information easily.
 
 ## Should-Haves
 
 > these will complete the user experience, but are not necessary
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+- As a user I want to see some `service offers` so I can understand better the
+  features.
 
 ## Could-Haves
 
 > would be really cool ... if there's time
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+- As a user I want to see some `testimonials` so I can see how other users like
+  my about me.
