@@ -1,10 +1,10 @@
-# Name of project
+# Mohammed Alamgir Portfolio
 
-> A longer description
+> It is a portfolio about myself.
 
 ## Table of contents
 
-- [Name of project](#name-of-project)
+- [Alamgir Portfolio](#alamgir-portfolio)
   - [Table of contents](#table-of-contents)
   - [General info](#general-info)
   - [Screenshots](#screenshots)
@@ -22,7 +22,7 @@
 
 ## General info
 
-> A short description
+> A portfolio of Mohammed Alamgir
 
 ## Screenshots
 
@@ -32,19 +32,22 @@
 
 - Node 14.16.0
 - VSC code
-- JavaScript
-- ...
+- HTML
+- CSS
 - ...
 
 ## Setup
 
-- `npm run start`
+- `npm install`
 
 ## Code Examples
 
-```js
-// the hello world program
-console.log("Hello World");
+```html
+<html>
+  <head>
+    <title>Alamgir Profile</title>
+  </head>
+</html>
 ```
 
 ## Features
