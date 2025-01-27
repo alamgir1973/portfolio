@@ -4,7 +4,7 @@
 
 ## Table of contents
 
-- [Alamgir Portfolio](#alamgir-portfolio)
+- [Alamgir Portfolio](#Mohammed Alamgir Portfolio)
   - [Table of contents](#table-of-contents)
   - [General info](#general-info)
   - [Screenshots](#screenshots)
