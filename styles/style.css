@@ -8,10 +8,26 @@ body {
 }
 
 .navbar {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
   background-color: red;
 }
 
 .logo {
   background-color: black;
   color: white;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.links {
+  text-decoration: none;
+  list-style-type: none;
 }

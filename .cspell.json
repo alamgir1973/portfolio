@@ -16,7 +16,9 @@
     "Todos",
     "wireframe",
     "Alamgir",
-    "CPAS"
+    "CPAS",
+    "sideimage",
+    "aboutme"
   ],
   "ignorePaths": [
     "node_modules/**",
