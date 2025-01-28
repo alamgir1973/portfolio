@@ -6,4 +6,4 @@
 
 <https://excalidraw.com/#json=FlxXUlpofo6YoqZS4tK1K,bHNhjP4LB0UlRgF8sL1vlA>
 
-![website-design](/images/design.jpg)
+![website-design](/public/images/design.jpg)
