@@ -4,6 +4,6 @@
 
 ### Wireframe
 
-<https://excalidraw.com/#json=FlxXUlpofo6YoqZS4tK1K,bHNhjP4LB0UlRgF8sL1vlA>
+<https://excalidraw.com/#json=J1u0iHgZsPr0t_PFOkgnG,HZfJ8YyX_x4pE8ejWlFNdg>
 
-![website-design](/public/images/design.jpg)
+![website-design](../public/images/design.jpg)
