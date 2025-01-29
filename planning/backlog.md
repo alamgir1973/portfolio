@@ -13,6 +13,8 @@ A user who wants to build a website about his personal portfolio!
 - As a user, I need a `main content` overview so I can see the content
   available.
 - As a user, I need a `side image section` so I can find my personal photo.
+- As a user, I need a `button section` so I can find information by clicking
+  buttons.
 - As a user, I need useful `languages section` so user can see how many
   languages I can communicate.
 - As a user, I need useful `about me` so user can see information about me.

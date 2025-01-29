@@ -106,6 +106,20 @@ This feature develop on a branch `side-image`
 - Add style to `p`
 - Add style to `container`
 
+### Buttons
+
+This feature develop on a branch `buttons-click`
+
+#### HTML
+
+- Add `section` tag
+- Add two `div` into `section` tag
+
+#### CSS
+
+- Add style to `btn` and `flex`
+- Add two styles `btn-callme` and `btn-mycv` to `btn`
+
 ### Languages
 
 This feature develop on a branch `languages-known`
