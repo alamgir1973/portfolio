@@ -152,3 +152,60 @@ a {
 }
 
 /* Buttons End */
+
+/* Languages Known Start */
+
+.languages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 250px;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  background-color: #f06451;
+  border: 2px solid #1a1818;
+}
+
+.languages-known {
+  background-color: #a82e08;
+  width: 120px;
+  height: 220px;
+  margin-left: 40px;
+  box-shadow: 8px 8px 15px #e0dfdf80;
+}
+
+.lang-header {
+  font-size: 25px;
+  font-weight: 600;
+  color: #f1ecec;
+  height: 120px;
+  width: 300px;
+  transform: rotate(-90deg);
+}
+
+.language-names {
+  padding: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #e6dcdc;
+  background-color: #08532e;
+  box-shadow: 8px 8px 15px rgba(0 0 0 / 50%);
+}
+
+.language-arrow {
+  padding: 20px;
+  font-weight: 700;
+  font-size: 22px;
+  color: #fff;
+}
+
+.language-prof {
+  padding: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #0c8a07;
+  background-color: #fff;
+  box-shadow: 8px 8px 15px rgba(0 0 0 / 50%);
+}
+
+/* Languages Known End */
