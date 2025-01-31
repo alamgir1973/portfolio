@@ -142,13 +142,12 @@ This feature develop on a branch `about-me`
 #### HTML
 
 - Add `section` tag
-- Add `h2` into `section` tag
 - Add `div` into `section` tag
-- Add four `div` into `div`
 
 #### CSS
 
-- Add style to `aboutme` section
+- Add style to `about-me` section
+- Add style to `about-header` into `div`
 
 ### Footer
 
