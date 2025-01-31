@@ -149,6 +149,20 @@ This feature develop on a branch `about-me`
 - Add style to `about-me` section
 - Add style to `about-header` into `div`
 
+### Contact Form
+
+This feature develop on a branch `contact-form`
+
+#### HTML
+
+- Add `section` tag
+- Add `div` tag into `section`
+- Add some `input` tags into `div`
+
+#### CSS
+
+- Add style to `contact-form` and `input` and `text`
+
 ### Footer
 
 This feature develop on a branch `footer`

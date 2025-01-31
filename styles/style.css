@@ -125,7 +125,9 @@ a {
 .btn {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .find-me {
@@ -139,6 +141,10 @@ a {
   margin-right: 10px;
 }
 
+.find-me:hover {
+  background-color: green;
+}
+
 .my-cv {
   background-color: green;
   color: white;
@@ -147,10 +153,6 @@ a {
   border-radius: 25px;
   padding: 10px 15px;
   border: solid black 2px;
-}
-
-.find-me:hover {
-  background-color: green;
 }
 
 .my-cv:hover {
@@ -236,3 +238,66 @@ a {
 }
 
 /* About Me End */
+
+/* Contact Form Start */
+
+.contact-form {
+  width: 50%;
+  border: 2px solid black;
+  margin: auto;
+}
+
+.container {
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: #f4f8f6;
+  padding: 20px;
+}
+
+.contact-header {
+  margin: auto;
+  margin-top: 15px;
+  text-align: center;
+  color: #fff;
+  width: 200px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: #0c8a07;
+  font-weight: 600;
+}
+
+input[type="text"],
+[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="email"] {
+  display: block;
+}
+
+button {
+  display: inline-block;
+  background-color: #0c8a07;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ad2d06;
+}
+
+/* Contact Form Start */
