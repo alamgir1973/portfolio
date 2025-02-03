@@ -169,9 +169,9 @@ This feature develop on a branch `footer`
 
 #### HTML
 
-- Add `footer` tag
-- Add `div` tag into `footer`
-- Add `div` into `div`
+- Add `section` tag
+- Add `div` tag into `section`
+- Add some `links` and `copy right` icon into `div`
 
 #### CSS
 
