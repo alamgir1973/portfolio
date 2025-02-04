@@ -176,3 +176,11 @@ This feature develop on a branch `footer`
 #### CSS
 
 - Add style to `footer` and `social` and `a`
+
+### Responsive
+
+This feature develop on a branch `responsive`
+
+#### CSS
+
+- Add style to `@media` with different width based on the various devices
