@@ -1,156 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohammed Alamgir Portfolio!</title>
+    <link href="./styles/index.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mohammed Alamgir Portfolio!</title>
-  <link href="./styles/index.css" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-
-<body>
-  <!-- Header -->
-  <header class="header">
-    <!-- Logo -->
-    <div class="logo">
-      <a href="index.html"><span class="logo-m">M.</span><span class="logo-a">A.</span></a>
-    </div>
-    <!-- Navbar -->
-    <div class="navbar">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="./pages/about.html">About</a></li>
-        <li><a href="./pages/contact.html">Contact</a></li>
-      </ul>
-    </div>
-  </header>
-  <main>
-    <!-- Main content -->
-    <section class="main-content">
-      <div class="main-container">
-        <div class="hi">Hi,</div>
-        <div class="iam">
-          I am <span class="myname">Mohammed Alamgir.</span>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <!-- Logo -->
+      <div class="logo">
+        <a href="index.html"
+          ><span class="logo-m">M.</span><span class="logo-a">A.</span></a
+        >
+      </div>
+      <!-- Navbar -->
+      <div class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="./pages/about.html">About</a></li>
+          <li><a href="./pages/contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <!-- Main content -->
+      <section class="main-content">
+        <div class="main-container">
+          <div class="hi">Hi,</div>
+          <div class="iam">
+            I am <span class="myname">Mohammed Alamgir.</span>
+          </div>
+          <div class="para-details">
+            I am learning website designing as a Front-end developer. <br />
+            I worked before as a PC and Network technician <br />
+            in a Belgian government organization.
+          </div>
         </div>
-        <div class="para-details">
-          I am learning website designing as a Front-end developer. <br />
-          I worked before as a PC and Network technician <br />
-          in a Belgian government organization.
+        <!-- Side image -->
+        <div class="side-image">
+          <img
+            class="photo"
+            src="./public/images/alamgir03.png"
+            alt="Alamgir Photo"
+          />
+        </div>
+      </section>
+
+      <!-- Languages Known Start */ -->
+      <section class="languages">
+        <div class="languages-known">
+          <div class="lang-header">Languages Known</div>
+        </div>
+        <div class="language-names">
+          <h2>English</h2>
+          <h2>French</h2>
+          <h2>Dutch</h2>
+          <h2>Bangla</h2>
+        </div>
+        <div class="language-arrow">
+          <h2>&#x2192;</h2>
+          <h2>&#x2192;</h2>
+          <h2>&#x2192;</h2>
+          <h2>&#x2192;</h2>
+        </div>
+        <div class="language-prof">
+          <h2>Fluent</h2>
+          <h2>Good</h2>
+          <h2>Good</h2>
+          <h2>Native</h2>
+        </div>
+      </section>
+      <section class="about-me">
+        <div class="about-header">
+          <h2>About Me</h2>
+        </div>
+        <div class="about-desc">
+          <p>
+            More than 25 years experience as a PC and Network technician. I
+            worked in a multinational project in Bangladesh. After completed
+            that project, I came in Belgium for higher study in Information
+            Systems. I have done my graduation in Belgium. I worked as a self
+            employed more than 8 years in Belgium. I worked in a Belgian
+            government organization as a PC and Network technician from 2022 to
+            2024. <br /><br />
+            Now, I am learning Front-end Web Developer to be execute my future
+            plan to be Cyber Security specialist. I think it is necessary to
+            know how to work different websites and web tools to be a best cyber
+            security specialist.
+          </p>
+        </div>
+      </section>
+
+      <!-- Buttons Start-->
+      <section class="btn">
+        <div class="btn-findme">
+          <a class="find-me" href="./pages/findme.html" target="_blank"
+            >Find Me</a
+          >
+        </div>
+        <div class="btn-mycv">
+          <a
+            class="my-cv"
+            href="./public/docs/CV_Alamgir_En.pdf"
+            target="_blank"
+            >My CV</a
+          >
+        </div>
+      </section>
+      <!-- Buttons End-->
+      <section class="contact-form">
+        <div class="contact-header">Contact with me</div>
+        <div class="container">
+          <form id="form-post" action="#">
+            <label for="fname">First Name</label>
+            <input
+              type="text"
+              id="fname"
+              name="first-name"
+              placeholder="Your name.."
+            />
+            <label for="lname">Last Name</label>
+            <input
+              type="text"
+              id="lname"
+              name="last-name"
+              placeholder="Your last name.."
+            />
+            <label for="comments">Write your comments</label>
+            <textarea
+              id="comments"
+              name="comments"
+              placeholder="Write something.."
+            ></textarea>
+            <label for="email">Your Email</label>
+            <input
+              type="email"
+              id="email"
+              name="e-mail"
+              placeholder="Your e-mail.."
+              required
+            />
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-copyright">Copyright &#169; 2025</div>
+        <div class="footer-links">
+          <a href="./index.html" target="_blank">Home</a>
+          <a href="./pages/about.html" target="_blank">About Me</a>
+          <a href="./pages/contact.html" target="_blank">Contact Me</a>
+        </div>
+        <div class="footer-social">
+          <div class="social-icons">
+            <ul>
+              <li>
+                <a class="facebook" href="https://facebook.com" target="_blank"
+                  ><ion-icon name="logo-facebook">" "</ion-icon></a
+                >
+              </li>
+              <li>
+                <a class="linkedin" href="https://linkedin.com" target="_blank"
+                  ><ion-icon name="logo-linkedin">" "</ion-icon></a
+                >
+              </li>
+              <li>
+                <a class="youtube" href="https://youtube.com" target="_blank"
+                  ><ion-icon name="logo-youtube">" "</ion-icon></a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-      <!-- Side image -->
-      <div class="side-image">
-        <img class="photo" src="./public/images/alamgir03.png" alt="Alamgir Photo" />
-      </div>
-    </section>
-
-    <!-- Languages Known Start */ -->
-    <section class="languages">
-      <div class="languages-known">
-        <div class="lang-header">Languages Known</div>
-      </div>
-      <div class="language-names">
-        <h2>English</h2>
-        <h2>French</h2>
-        <h2>Dutch</h2>
-        <h2>Bangla</h2>
-      </div>
-      <div class="language-arrow">
-        <h2>&#x2192;</h2>
-        <h2>&#x2192;</h2>
-        <h2>&#x2192;</h2>
-        <h2>&#x2192;</h2>
-      </div>
-      <div class="language-prof">
-        <h2>Fluent</h2>
-        <h2>Good</h2>
-        <h2>Good</h2>
-        <h2>Native</h2>
-      </div>
-    </section>
-    <section class="about-me">
-      <div class="about-header">
-        <h2>About Me</h2>
-      </div>
-      <div class="about-desc">
-        <p>
-          More than 25 years experience as a PC and Network technician. I
-          worked in a multinational project in Bangladesh. After completed
-          that project, I came in Belgium for higher study in Information
-          Systems. I have done my graduation in Belgium. I worked as a self
-          employed more than 8 years in Belgium. I worked in a Belgian
-          government organization as a PC and Network technician from 2022 to
-          2024. <br /><br />
-          Now, I am learning Front-end Web Developer to be execute my future
-          plan to be Cyber Security specialist. I think it is necessary to
-          know how to work different websites and web tools to be a best cyber
-          security specialist.
-        </p>
-      </div>
-    </section>
-
-    <!-- Buttons Start-->
-    <section class="btn">
-      <div class="btn-findme">
-        <a class="find-me" href="./pages/findme.html" target="_blank">Find Me</a>
-      </div>
-      <div class="btn-mycv">
-        <a class="my-cv" href="./public/docs/CV_Alamgir_En.pdf" target="_blank">My CV</a>
-      </div>
-    </section>
-    <!-- Buttons End-->
-    <section class="contact-form">
-      <div class="contact-header">Contact with me</div>
-      <div class="container">
-        <form id="form-post" action="#">
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="first-name" placeholder="Your name.." />
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="last-name" placeholder="Your last name.." />
-          <label for="comments">Write your comments</label>
-          <textarea id="comments" name="comments" placeholder="Write something.."></textarea>
-          <label for="email">Your Email</label>
-          <input type="email" id="email" name="e-mail" placeholder="Your e-mail.." required />
-          <button type="submit">Submit</button>
-        </form>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="footer">
-      <div class="footer-copyright">Copyright &#169; 2025</div>
-      <div class="footer-links">
-        <a href="./index.html" target="_blank">Home</a>
-        <a href="./pages/about.html" target="_blank">About Me</a>
-        <a href="./pages/contact.html" target="_blank">Contact Me</a>
-      </div>
-      <div class="footer-social">
-        <div class="social-icons">
-          <ul>
-            <li>
-              <a class="facebook" href="https://facebook.com" target="_blank"><ion-icon name="logo-facebook">"
-                  "</ion-icon></a>
-            </li>
-            <li>
-              <a class="linkedin" href="https://linkedin.com" target="_blank"><ion-icon name="logo-linkedin">"
-                  "</ion-icon></a>
-            </li>
-            <li>
-              <a class="youtube" href="https://youtube.com" target="_blank"><ion-icon name="logo-youtube">"
-                  "</ion-icon></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-</body>
-
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>

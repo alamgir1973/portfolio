@@ -28,6 +28,8 @@ A user who wants to build a website about his personal portfolio!
 
 - As a user I want to see some `service offers` so I can understand better the
   features.
+- As a user I want to see `responsive` so I can see better on various
+  devices.
 
 ## Could-Haves
 
