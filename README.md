@@ -26,7 +26,7 @@
 
 ## Screenshots
 
-![Example screenshot](../portfolio/public/images/screenshotportfolio.jpg)
+![Example screenshot](./public/images/screenshotportfolio.jpg)
 
 ## Technologies
 
