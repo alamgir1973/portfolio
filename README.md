@@ -4,7 +4,7 @@
 
 ## Table of contents
 
-- [Alamgir Portfolio](#Mohammed Alamgir Portfolio)
+- [Alamgir Portfolio](#mohammed-alamgir-portfolio)
   - [Table of contents](#table-of-contents)
   - [General info](#general-info)
   - [Screenshots](#screenshots)
@@ -26,7 +26,7 @@
 
 ## Screenshots
 
-![Example screenshot](./planning/screenshot.jpg)
+![Example screenshot](../portfolio/public/images/screenshotportfolio.jpg)
 
 ## Technologies
 
@@ -42,12 +42,32 @@
 
 ## Code Examples
 
+### HTML
+
 ```html
 <html>
   <head>
     <title>Alamgir Profile</title>
   </head>
 </html>
+```
+
+### CSS
+
+```css
+body {
+  background-color: white;
+  font-family: Poppins, sans-serif;
+}
+
+/* General start */
+
+a {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
 ```
 
 ## Features
@@ -65,15 +85,15 @@ To-do list:
 
 ## Status
 
-Project is: _in progress_
+Project is: _Done_
 
 ## Inspiration
 
-Project by freeCodeCamp.org
+Project by HYF 2024.
 
 ## Contact
 
-By [Name]
+By [Mohammed Alamgir]
 
 ## Instructions for use
 
@@ -82,8 +102,8 @@ By [Name]
 
 <!-- a guide to using this repository -->
 
-1. `git clone git@github.com:HackYourFutureBelgium/template-markdown.git`
-2. `cd template-markdown`
+1. `git clone https://github.com/alamgir1973/portfolio.git`
+2. `cd portfolio`
 3. `npm install`
 
 ## Code Quality Checks
